@@ -1,0 +1,10 @@
+.lista{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    justify-content: center;
+}
+.logo-site{
+    display: flex;
+    flex-direction: left;
+}
