@@ -1,3 +1,8 @@
+.body {
+    margin: 0px;
+}
+
+
 .lista{
     display: flex;
     list-style-type: none;
@@ -34,11 +39,25 @@ h2{
     transition: background-color 0.3 ease;
 }
 .lista li:hover{
-    background-color: rgb(0, 61, 53);
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(253, 143, 0);
 }
 .titulo{
     display: flex;
-    flex-direction: row;
-    justify-content: left;
+    font-size: 80px;
+    font-family:  sans-serif;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+}
+.logo{
+    display: flex;
+    justify-content:  flex-start;
+    align-items: initial;
+    margin: 0;
+    padding: 20px;
+}
+.imagem2{
+    display: flex;
+    justify-content: center;
 }
